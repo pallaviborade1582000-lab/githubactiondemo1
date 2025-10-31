@@ -3,10 +3,10 @@ name: ETL Pipeline Demo
 on:
     push:
         branches:
-            - main
+        - main
 
 jobs:
-    extract-data:
+    extract-data-job:
         runs-on: ubuntu-latest
         steps:
             - name: checkout code
@@ -32,3 +32,4 @@ jobs:
 
             - name: run load.py
               run: python load.py
+              
