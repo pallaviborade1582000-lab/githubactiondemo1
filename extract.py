@@ -1,4 +1,5 @@
 import pandas as pd
+
 print("Extract data from mysql")
 
 data = {
