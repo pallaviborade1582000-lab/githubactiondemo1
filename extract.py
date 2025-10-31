@@ -9,5 +9,5 @@ data = {
 
 }
 
-df = pd.Dataframe(data)
+df = pd.DataFrame(data)
 print(df)
